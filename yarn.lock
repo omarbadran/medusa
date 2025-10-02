@@ -7361,12 +7361,12 @@ __metadata:
   dependencies:
     "@medusajs/toolbox": 2.10.3
     "@tailwindcss/forms": ^0.5.3
-    tailwindcss: ^3.4.1
+    tailwindcss: ^4.1.14
     tailwindcss-animate: ^1.0.6
     tsup: ^7.1.0
     typescript: ^5.1.6
   peerDependencies:
-    tailwindcss: ">=3.0.0"
+    tailwindcss: ">=3.0.0 || >=4.0.0"
   languageName: unknown
   linkType: soft
 
@@ -33841,6 +33841,13 @@ __metadata:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
   checksum: 11e5546494f2888f693ebaa271b218b3a8e52fe59d7b629e54f2dffd6eaafd5ded2e9f0c37ad04e6a866dffb2b116d91becebad77e1441beee8bf016bb2392f9
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^4.1.14":
+  version: 4.1.14
+  resolution: "tailwindcss@npm:4.1.14"
+  checksum: c7e9ebfb241707b2a3eb7d465fd326cc8fcfa22e7215e01f67cccec32db8a49a19e17d1f694fc5d0435d55350ea3f863521c52c9bbe6bd790c2009dc8ff516a1
   languageName: node
   linkType: hard
 
