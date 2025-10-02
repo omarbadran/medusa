@@ -1,0 +1,16 @@
+CLI Building entry: ./src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.0.2
+CLI Using tsup config: /workspaces/medusa/packages/admin/admin-shared/tsup.config.cjs
+CLI Target: es2020
+CLI Cleaning output folder
+CJS Build start
+ESM Build start
+ESM dist/index.mjs 9.80 KB
+ESM ⚡️ Build success in 47ms
+CJS dist/index.js 12.48 KB
+CJS ⚡️ Build success in 52ms
+DTS Build start
+DTS ⚡️ Build success in 8034ms
+DTS dist/index.d.ts  8.43 KB
+DTS dist/index.d.mts 8.43 KB

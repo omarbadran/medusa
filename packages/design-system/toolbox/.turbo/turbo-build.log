@@ -1,0 +1,18 @@
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v7.1.0
+CLI Using tsup config: /workspaces/medusa/packages/design-system/toolbox/tsup.config.ts
+CLI Target: node16
+CLI Cleaning output folder
+ESM Build start
+CJS Build start
+CJS dist/index.js     30.00 KB
+CJS dist/index.js.map 61.70 KB
+CJS ⚡️ Build success in 257ms
+ESM dist/index.mjs     27.83 KB
+ESM dist/index.mjs.map 61.39 KB
+ESM ⚡️ Build success in 268ms
+DTS Build start
+DTS ⚡️ Build success in 5827ms
+DTS dist/index.d.mts 12.00 B
+DTS dist/index.d.ts  12.00 B

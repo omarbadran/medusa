@@ -19,14 +19,6 @@ packages/**/plugins/**/.medusa/
 
 .eslintcache
 
-.idea
-.turbo
-build/**
-dist/**
-**/dist
-**/stats
-.favorites.json
-.vscode
 
 **/tsconfig.tsbuildinfo
 
