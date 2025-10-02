@@ -102,9 +102,7 @@ module.exports = {
 
 ### Tailwind CSS v4 Configurations
 
-Medusa UI isn't officially compatible with Tailwind CSS v4 yet, so use it with caution.
-
-In your CSS file that imports Tailwind CSS, add the following `@import`, `@config`, and `@source` directives:
+Medusa UI is now compatible with Tailwind CSS v4. In your CSS file that imports Tailwind CSS, add the following `@import`, `@config`, and `@source` directives:
 
 ```css
 @import "tailwindcss";
@@ -113,6 +111,14 @@ In your CSS file that imports Tailwind CSS, add the following `@import`, `@confi
 ```
 
 This will explicitly include the Medusa UI preset and its components in your Tailwind CSS build and apply the preset styles to your project.
+
+Alternatively, you can import the preset CSS directly:
+
+```css
+@import "tailwindcss";
+@import "@medusajs/ui-preset/css";
+@source "../node_modules/@medusajs/ui";
+```
 
 ---
 
